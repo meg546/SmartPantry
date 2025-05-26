@@ -40,30 +40,59 @@ coverage.xml
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# VS Code
+# VS Code / IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# macOS
+# OS files
 .DS_Store
-
-# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# SQLite database files
-*.sqlite3
+# Environment files
+*.env
+.env*
+!.env.example
+
+# Database files
 *.db
+*.sqlite
+*.sqlite3
+smartpantry.db
+
+# Logs
+*.log
+logs/
 
 # iCloud
 *.icloud
 
-# Local environment variables
-.env
-.env.*
+# Flutter
+mobile/build/
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/.pub-cache/
+mobile/.pub/
+mobile/ios/Flutter/Flutter.framework
+mobile/ios/Flutter/Flutter.podspec
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+mobile/android/.gradle/
+mobile/android/app/debug/
+mobile/android/app/profile/
+mobile/android/app/release/
 
-# Uvicorn/Starlette logs
-*.log
+# Build outputs
+*.apk
+*.aab
 
-# Ignore test database
-test.db
+# Temporary files
+*.tmp
+*.temp
+.cache/
